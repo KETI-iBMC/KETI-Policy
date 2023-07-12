@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+ <!-- Policy server -->
+<node name="/org/freedesktop/keti/bmc/policy">
+  <!-- policy interface -->
+  <interface name="org.freedesktop.keti.bmc.policy">
+    <method name="policy_feedback">
+      <arg type="i" name="result" direction="out"/>
+	  </method>
+    <method name="policy_ibmc">
+      <arg type="i" name="result" direction="out"/>
+	  </method>
+    <method name="policy_monitor">
+      <arg type="i" name="result" direction="out"/>
+	  </method>
+    <method name="policy_energy">
+      <arg type="i" name="result" direction="out"/>
+	  </method>
+    <method name="policy_ssp">
+      <arg type="i" name="result" direction="out"/>
+	  </method>    
+  </interface>
+
+</node>
