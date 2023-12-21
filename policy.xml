@@ -9,6 +9,9 @@
     <method name="policy_ibmc">
       <arg type="i" name="result" direction="out"/>
 	  </method>
+    <method name="policy_ibmc_object">
+      <arg type="i" name="result" direction="out"/>
+	  </method>    
     <method name="policy_monitor">
       <arg type="i" name="result" direction="out"/>
 	  </method>

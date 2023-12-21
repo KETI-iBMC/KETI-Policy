@@ -1,2 +1,9 @@
-{"Power_consumption_policy":"enable",
-"Feedback_Engine_policy":"enable"}
+{
+    "Category" : "EnergySaving",
+    "Target" : "Processors",
+    "Policy" : [
+        "HostProcessor1",
+        "Mode",
+        "MaxSpeedMhz"
+    ]
+}

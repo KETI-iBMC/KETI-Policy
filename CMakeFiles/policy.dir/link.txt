@@ -1,0 +1,1 @@
+/usr/bin/g++ -rdynamic CMakeFiles/policy.dir/policy.cpp.o -o policy   -L/home/keti/BMC_SDK/output/build/dbus-cpp-0.9.0/src/libs  -Wl,-rpath,/home/keti/BMC_SDK/output/build/dbus-cpp-0.9.0/src/libs -ldbus-c++-1 -lpthread 
